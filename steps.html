@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Document</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/style.css">
+<style>
+
+</style>
+</head>
+
+<body>
+	<div class="main">
+
+		<div class="step1">
+			<h1>Step 1</h1>
+			<hr>
+			<br>
+			<label for="age">Enter your age: </label>
+			<input type="text" id="age" value="" placeholder="age">
+			<br>
+			<br>
+			<div id="radio" class="radio" >	
+			<label>Select gender:</label>
+			  <input type="radio" id="Male" name="gender" value="Male">
+			  <label for="Male">Male</label>
+			  <input type="radio" id="Female" name="gender" value="Female">
+			  <label for="Female">Female</label>
+			</div>
+			<br>
+			<label >Enter body temperature: </label>
+			<input type="text" id="temp" value="" placeholder="In fahrenheit  eg : 99 ">
+			<br>
+			<br>
+			<hr>
+			<br>
+		    <button id="step1">Next Step</button>
+		</div>
+
+		<div class="step2" style="display:none;">
+			<h1>Step 2</h1>
+			
+			<h3>Select your symptoms:</h3>
+			<div class="divin">
+			<label><input type="checkbox" value="football" name="sym1">Breathing Problem</label>
+			<label><input type="checkbox" value="baseball" name="sym1">Dry cough</label>
+			<label><input type="checkbox" value="cricket" name="sym1">Sore throat</label>
+			<label><input type="checkbox" value="boxing" name="sym1">Weakness</label>
+			<label><input type="checkbox" value="racing" name="sym1">Runny nose</label>
+			</div>
+			<br>
+			<br>
+		
+			<a id="step2" href="#"><button>Next Step</button></a>
+		</div>	
+
+		<div class="step3" style="display:none;">
+			<h1>Step 3</h1>
+			<h3>Add some additional symptoms:</h3>
+			<div class="syms">
+
+			<div class="divin">
+			<label><input type="checkbox" value="football" name="sym2">Abdominal pain</label>
+			<label><input type="checkbox" value="baseball" name="sym2">Vomiting</label>
+			<label><input type="checkbox" value="cricket" name="sym2">Diarrhoea</label>
+			<label><input type="checkbox" value="swimming" name="sym2">Rash skin or discoloration of finger or toes</label>
+			</div>
+
+			<div class="divin">
+			<label><input type="checkbox" value="racing" name="sym2">Muscle pain</label>
+			<label><input type="checkbox" value="swimming" name="sym2">Loss of taste or smell</label>
+			<label><input type="checkbox" value="boxing" name="sym2">Chest pain or pressure</label>
+			<label><input type="checkbox" value="swimming" name="sym2">Loss of speech or movement</label>
+			</div>
+				
+			</div>
+
+			<br>
+			<br>
+			<br>
+			<button id="step3">Next Step</button>
+		</div>
+
+		<div class="result" style="display: none">
+			<div class="report">
+				<div class="info">
+					
+				</div>
+
+				<div class="safe">
+					<h4>Report :<span style="color:#5cb85c;"> Covid-19 'Negative' </span></h4>
+					<h3>Stay isolated and consult doctor for inquiry </h3>
+				</div>
+
+				<div class="warning">
+					<h4>Report :<span style="color:#f0ad4e;"> Possible Covid-19 'Positive' </span></h4>
+					<h3>Stay isolated and consult doctor for inquiry </h3>
+				</div>
+				<div class="unsafe">
+				    <h4>Report : <span style="color:#d9534f;"> High possibility of Covid-19 'Positive' </span></h4>
+				    <h3>Stay isolated , Immediately consult doctor .</h3>
+				</div>
+				<div class="danger">
+					<h4>Report :  <span style="color:#d9534f;"> Very high possibility of Covid-19 'Positive' </span></h4>
+					<h3>Stay isolated . Get  hospitalized Immediately.</h3> 
+				</div>
+			</div>
+			<div id="list" style="display:none">
+				<h4>Try this imgergency Helpline</h4>
+				<ul>
+					<li>IEDCR contact: 10655 and 01944333222</li>
+					<li>Shasthya Batayon hotline: 16263</li>
+					<li>DGHS Hotline: 333</li>
+					<li>01521259536</li>
+				</ul>
+				<a id="step2" href="index.html"><button>Try again</button></a>
+			</div>
+		</div>		
+	</div>
+
+    <div class="foot">
+    	<article>
+    		This COVID-19 Self Assessment System is only for software development purpose and may not yield actual result. Any information given by users of this system will not be disclosed or store to anywhere.
+    	</article>    	
+    </div>
+
+</body>
+<script src="js/main.js"></script>
+</html>
