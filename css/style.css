@@ -52,6 +52,9 @@ body {
   #age,#temp{
 	margin-top:10px;
  }
+ #age{
+ 	margin-bottom: 10px;
+ }
 
 }
 .divin{
