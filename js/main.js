@@ -74,8 +74,5 @@ function step3(){
  	    document.querySelector("#list").style.display = 'block';
  	}
  	var res=document.querySelector(".info");
- 	res.innerHTML="<h4>Age : "+ Age +", Gender : "+ Sex +"</h4>";
+ 	res.innerHTML="<h3>Age : "+ Age +", Gender : "+ Sex +"</h3>";
 }
-x="99.5F"
-y=parseFloat(x,10);
-console.log(y);
